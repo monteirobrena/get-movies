@@ -79,7 +79,6 @@ export default class Search extends Component {
           large
           raised
           title="BUSCAR"
-          icon={{name: 'search'}}
           backgroundColor={CssColors.primaryColor} 
           onPress={() => this.handlePress()}
         />
