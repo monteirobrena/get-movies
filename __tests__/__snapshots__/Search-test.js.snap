@@ -119,32 +119,6 @@ exports[`renders correctly 1`] = `
       >
         <Text
           accessible={true}
-          allowFontScaling={false}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {
-                "color": "white",
-                "fontSize": 26,
-              },
-              Array [
-                Object {
-                  "marginRight": 10,
-                },
-                undefined,
-              ],
-              Object {
-                "fontFamily": "Material Icons",
-                "fontStyle": "normal",
-                "fontWeight": "normal",
-              },
-            ]
-          }
-        >
-          
-        </Text>
-        <Text
-          accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
           style={

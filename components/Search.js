@@ -35,8 +35,8 @@ export default class Search extends Component {
     this.state = { showNotFound: false };
   }
 
-  handlePress = () => {
-    let textSearch = this.state.textSearch;
+  handlePress = (textSearch) => {
+//    let textSearch = this.state.textSearch;
     let urlApiMovies = "https://jsonmock.hackerrank.com/api/movies/search/?Title=" + textSearch;
 
     return fetch(urlApiMovies)
@@ -80,7 +80,7 @@ export default class Search extends Component {
           raised
           title="BUSCAR"
           backgroundColor={CssColors.primaryColor} 
-          onPress={() => this.handlePress()}
+          onPress={() => this.handlePress(this.state.textSearch)}
         />
       </View>
     );
