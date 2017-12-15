@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CssColors from './CssColors';
+import CssColors from '../components/CssColors';
 import { Button } from 'react-native-elements';
 import { Actions } from "react-native-router-flux";
 import { Text, TextInput, ListView, View, StyleSheet } from 'react-native';

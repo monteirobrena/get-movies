@@ -11,6 +11,18 @@
     "react-native-router-flux": "^4.0.0-beta.24"
   },
   "scripts": {
+    "test": "jest",
     "start": "react-native-scripts start"
+  },
+  "devDependencies": {
+    "babel-jest": "^21.2.0",
+    "jest": "^21.2.1",
+    "react-test-renderer": "^16.2.0"
+  },
+  "jest": {
+    "preset": "react-native", 
+    "transformIgnorePatterns": [
+     "node_modules/(?!(jest-)?react-native|react-navigation|mobx-react)"
+    ]
   }
 }
