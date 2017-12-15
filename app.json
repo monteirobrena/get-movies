@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "get-movies",
+    "description": "Get Movies",
+    "slug": "get-movies",
+    "privacy": "public",
+    "sdkVersion": "24.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f1f1f1"
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
